@@ -58,7 +58,6 @@ public class SegundaLista {
                     break;
             }
         }while(menu != 0);
-        scanner.close();
     }
     
     public static void medianotas() {
@@ -75,7 +74,6 @@ public class SegundaLista {
         
         String media = (soma / 3) >= 7.0 ? "Aprovado" : "Reprovado";
         System.out.println(media);
-        scanner.close();
     }
 	
     public static void Nummes() {
@@ -128,7 +126,6 @@ public class SegundaLista {
                 break;
         }
         System.out.println("Mês correspondente: " + mes);
-        scanner.close();
     }
     
     public static void forca() {
@@ -164,7 +161,6 @@ public class SegundaLista {
                 System.out.println("\n\t Você perdeu a outra perna e foi enforcado");
             }
         }
-        scanner.close();
     }
 
     public static void tabuada() {
@@ -177,8 +173,6 @@ public class SegundaLista {
         for (int i=0;i<=10;i++) {
             System.out.println(valor + " x " + i + " = " + (valor*i));
         }
-        
-        scanner.close();
     }
 
     public static void torreString() {
@@ -191,8 +185,6 @@ public class SegundaLista {
         for (int cont=0;cont<stringTorre.length();cont++) {
             System.out.println(stringTorre.charAt(cont));
         }
-        
-        scanner.close();
     }
 
     public static void imparesMultSete() {
@@ -207,7 +199,6 @@ public class SegundaLista {
         }
         
         System.out.println("A soma dos números ímpares múltiplos de 7 é: " + soma);
-        scanner.close();
     }
 
     public static void notaNegativa() {
@@ -225,8 +216,6 @@ public class SegundaLista {
         }while(nota >= 0);
         
         System.out.println("A média das notas informadas é: " + (soma/qntNotas));
-        
-        scanner.close();
     }
 
     public static void fatorial() {
@@ -241,8 +230,6 @@ public class SegundaLista {
         }
         
         System.out.println("A fatorial desse número é: " + fatorial);
-        
-        scanner.close();
     }
 
     public static void imc() {
@@ -275,7 +262,6 @@ public class SegundaLista {
         }
         
         System.out.println("IMC: " + resultadoIMC);
-        scanner.close();
     }
 
     public static void operacoes() {
